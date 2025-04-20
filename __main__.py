@@ -4,7 +4,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pycoingecko import CoinGeckoAPI
 
 DATABASE = "bot_users.db"
-OWNER_ID = 6845535789
+OWNER_ID = **********
 
 
 def setup_database():
@@ -56,9 +56,9 @@ def view_users():
 
 app = Client(
     name="TahaFarashi_bot",
-    api_id=26469671,
-    api_hash="e1abd3219206abfe857afb08c6333690",
-    bot_token="7641484511:AAG7xVsfS_q6p1NLoaVT8E7I3BGbFWSkg0w"
+    api_id=********,
+    api_hash="**********************************",
+    bot_token="******************************************************"
 )
 cg = CoinGeckoAPI()
 pending_phones = {}
